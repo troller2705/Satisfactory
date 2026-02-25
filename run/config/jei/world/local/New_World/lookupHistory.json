@@ -1,0 +1,15 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"satisfactory:screw_bundle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"satisfactory:heavy_modular_frame"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:bamboo_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:golden_apple"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:enchanted_golden_apple"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"satisfactory:modular_frame"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"satisfactory:screw"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"satisfactory:steel_pipe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"satisfactory:encased_industrial_beam"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:potion","components":{"minecraft:potion_contents":{"potion":"minecraft:infested"},"create:potion_fluid_bottle_type":"splash"}},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:splash_potion","components":{"minecraft:potion_contents":{"potion":"minecraft:infested"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"satisfactory:plastic"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

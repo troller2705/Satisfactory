@@ -1,0 +1,12 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "fluid": "satisfactory:crude_oil", "amount": 3000 }
+  ],
+  "results": [
+    { "item": "satisfactory:plastic", "count": 3 },
+    { "fluid": "satisfactory:heavy_oil_residue", "amount": 1000 }
+  ],
+  "processing_duration": 120,
+  "heatRequirement": "heated"
+}

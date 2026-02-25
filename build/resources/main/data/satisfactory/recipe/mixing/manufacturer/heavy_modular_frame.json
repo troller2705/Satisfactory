@@ -1,0 +1,138 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "satisfactory:modular_frame"
+    },
+    {
+      "item": "satisfactory:modular_frame"
+    },
+    {
+      "item": "satisfactory:modular_frame"
+    },
+    {
+      "item": "satisfactory:modular_frame"
+    },
+    {
+      "item": "satisfactory:modular_frame"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:encased_industrial_beam"
+    },
+    {
+      "item": "satisfactory:encased_industrial_beam"
+    },
+    {
+      "item": "satisfactory:encased_industrial_beam"
+    },
+    {
+      "item": "satisfactory:encased_industrial_beam"
+    },
+    {
+      "item": "satisfactory:encased_industrial_beam"
+    },
+    {
+      "item": "satisfactory:screw_bundle"
+    },
+    {
+      "item": "satisfactory:screw_bundle"
+    },
+    {
+      "item": "satisfactory:screw_bundle"
+    },
+    {
+      "item": "satisfactory:screw_bundle"
+    },
+    {
+      "item": "satisfactory:screw_bundle"
+    },
+    {
+      "item": "satisfactory:screw_bundle"
+    },
+    {
+      "item": "satisfactory:screw_bundle"
+    },
+    {
+      "item": "satisfactory:screw_bundle"
+    },
+    {
+      "item": "satisfactory:screw_bundle"
+    },
+    {
+      "item": "satisfactory:screw_bundle"
+    },
+    {
+      "item": "satisfactory:screw_bundle"
+    },
+    {
+      "item": "satisfactory:screw_bundle"
+    }
+  ],
+  "results": [
+    {
+      "id": "satisfactory:heavy_modular_frame",
+      "count": 1
+    }
+  ],
+  "processing_time": 600
+}

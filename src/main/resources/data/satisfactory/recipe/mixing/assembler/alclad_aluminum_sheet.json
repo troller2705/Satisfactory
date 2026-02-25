@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "satisfactory:aluminum_ingot"
+    },
+    {
+      "item": "satisfactory:aluminum_ingot"
+    },
+    {
+      "item": "satisfactory:aluminum_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "satisfactory:alclad_aluminum_sheet",
+      "count": 3
+    }
+  ],
+  "processing_time": 120
+}

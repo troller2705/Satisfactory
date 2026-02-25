@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    }
+  ],
+  "results": [
+    {
+      "id": "satisfactory:screw_bundle",
+      "count": 1
+    }
+  ],
+  "processing_time": 20
+}
