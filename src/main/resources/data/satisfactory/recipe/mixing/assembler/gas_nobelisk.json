@@ -1,0 +1,45 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "satisfactory:nobelisk"
+    },
+    {
+      "item": "satisfactory:biomass"
+    },
+    {
+      "item": "satisfactory:biomass"
+    },
+    {
+      "item": "satisfactory:biomass"
+    },
+    {
+      "item": "satisfactory:biomass"
+    },
+    {
+      "item": "satisfactory:biomass"
+    },
+    {
+      "item": "satisfactory:biomass"
+    },
+    {
+      "item": "satisfactory:biomass"
+    },
+    {
+      "item": "satisfactory:biomass"
+    },
+    {
+      "item": "satisfactory:biomass"
+    },
+    {
+      "item": "satisfactory:biomass"
+    }
+  ],
+  "results": [
+    {
+      "id": "satisfactory:gas_nobelisk",
+      "count": 1
+    }
+  ],
+  "processing_time": 400
+}

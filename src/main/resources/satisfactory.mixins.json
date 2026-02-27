@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.troller2705.satisfactory.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MechanicalMixerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "tag": "c:sheet/iron" },
+    { "tag": "c:sheet/iron" },
+    { "tag": "c:sheet/iron" },
+    { "tag": "c:sheet/iron" },
+    { "tag": "c:sheet/iron" },
+    { "tag": "c:sheet/iron" },
+    { "item": "satisfactory:screw"},
+    { "item": "satisfactory:screw"},
+    { "item": "satisfactory:screw"},
+    { "item": "satisfactory:screw"},
+    { "item": "satisfactory:screw"},
+    { "item": "satisfactory:screw"},
+    { "item": "satisfactory:screw"},
+    { "item": "satisfactory:screw"},
+    { "item": "satisfactory:screw"},
+    { "item": "satisfactory:screw"},
+    { "item": "satisfactory:screw"},
+    { "item": "satisfactory:screw"}
+  ],
+  "results": [
+    {
+      "item": "satisfactory:reinforced_iron_plate",
+      "count": 1
+    }
+  ],
+  "processing_time": 400
+}

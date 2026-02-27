@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "tag": "c:rod/iron" },
+    { "tag": "c:rod/iron" },
+    { "tag": "c:rod/iron" },
+    { "tag": "c:rod/iron" },
+    { "tag": "c:rod/iron" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" },
+    { "item": "satisfactory:screw" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:rotor",
+      "count": 1
+    }
+  ],
+  "processing_time": 500
+}

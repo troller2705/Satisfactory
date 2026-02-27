@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:rotor" },
+    { "item": "satisfactory:rotor" },
+    { "item": "satisfactory:stator" },
+    { "item": "satisfactory:stator" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:motor",
+      "count": 1
+    }
+  ],
+  "processing_time": 400
+}

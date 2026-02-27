@@ -8,5 +8,5 @@
     { "fluid": "satisfactory:heavy_oil_residue", "amount": 1000 }
   ],
   "processing_duration": 120,
-  "heatRequirement": "heated"
+  "heat_requirement": "heated"
 }

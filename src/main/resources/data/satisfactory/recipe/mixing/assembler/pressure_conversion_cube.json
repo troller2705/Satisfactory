@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:fused_modular_frame" },
+    { "item": "satisfactory:radio_control_unit" },
+    { "item": "satisfactory:radio_control_unit" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:pressure_conversion_cube",
+      "count": 1
+    }
+  ],
+  "processing_time": 2000
+}

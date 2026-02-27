@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:rods/iron"
+    }
+  ],
+  "results": [
+    {
+      "id": "satisfactory:screw",
+      "count": 4
+    }
+  ],
+  "processing_time": 120
+}

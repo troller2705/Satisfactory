@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "satisfactory:sulfer"
+    }
+  ],
+  "results": [
+    {
+      "id": "satisfactory:black_powder",
+      "count": 2
+    }
+  ],
+  "processing_time": 80
+}

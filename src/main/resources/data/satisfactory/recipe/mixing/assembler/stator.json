@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:wire" },
+    { "item": "satisfactory:wire" },
+    { "item": "satisfactory:wire" },
+    { "item": "satisfactory:wire" },
+    { "item": "satisfactory:wire" },
+    { "item": "satisfactory:wire" },
+    { "item": "satisfactory:wire" },
+    { "item": "satisfactory:wire" },
+    { "item": "satisfactory:steel_pipe" },
+    { "item": "satisfactory:steel_pipe" },
+    { "item": "satisfactory:steel_pipe" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:stator",
+      "count": 1
+    }
+  ],
+  "processing_time": 400
+}

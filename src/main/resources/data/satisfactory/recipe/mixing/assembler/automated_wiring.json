@@ -1,0 +1,75 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "satisfactory:stator"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    },
+    {
+      "item": "satisfactory:cable"
+    }
+  ],
+  "results": [
+    {
+      "id": "satisfactory:automated_wiring",
+      "count": 1
+    }
+  ],
+  "processing_time": 480
+}

@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "satisfactory:nobelisk"
+    },
+    {
+      "item": "satisfactory:nobelisk"
+    },
+    {
+      "item": "satisfactory:nobelisk"
+    }
+  ],
+  "results": [
+    {
+      "id": "satisfactory:circuit_board",
+      "count": 1
+    }
+  ],
+  "processing_time": 160
+}

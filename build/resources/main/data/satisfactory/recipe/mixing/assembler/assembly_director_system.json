@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "satisfactory:adaptive_control_unit"
+    },
+    {
+      "item": "satisfactory:adaptive_control_unit"
+    },
+    {
+      "item": "satisfactory:supercomputer"
+    }
+  ],
+  "results": [
+    {
+      "id": "satisfactory:assembly_director_system",
+      "count": 1
+    }
+  ],
+  "processing_time": 1600
+}

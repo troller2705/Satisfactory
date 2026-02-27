@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "satisfactory:nobelisk"
+    },
+    {
+      "item": "satisfactory:nobelisk"
+    },
+    {
+      "item": "satisfactory:nobelisk"
+    },
+    {
+      "item": "satisfactory:black_powder"
+    },
+    {
+      "item": "satisfactory:black_powder"
+    },
+    {
+      "item": "satisfactory:black_powder"
+    },
+    {
+      "item": "satisfactory:black_powder"
+    }
+  ],
+  "results": [
+    {
+      "id": "satisfactory:cluster_nobelisk",
+      "count": 1
+    }
+  ],
+  "processing_time": 800
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:reinforced_iron_plate" },
+    { "item": "satisfactory:rotor" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:compacted_coal",
+      "count": 1
+    }
+  ],
+  "processing_time": 1000
+}

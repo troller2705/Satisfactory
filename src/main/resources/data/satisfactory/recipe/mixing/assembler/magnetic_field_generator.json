@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:versatile_framework" },
+    { "item": "satisfactory:versatile_framework" },
+    { "item": "satisfactory:versatile_framework" },
+    { "item": "satisfactory:versatile_framework" },
+    { "item": "satisfactory:versatile_framework" },
+    { "item": "satisfactory:electromagnetic_control_rod" },
+    { "item": "satisfactory:electromagnetic_control_rod" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:magnetic_field_generator",
+      "count": 2
+    }
+  ],
+  "processing_time": 4000
+}

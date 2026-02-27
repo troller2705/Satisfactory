@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:stator" },
+    { "item": "satisfactory:stator" },
+    { "item": "satisfactory:stator" },
+    { "item": "satisfactory:ai_limiter" },
+    { "item": "satisfactory:ai_limiter" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:electomagnetic_control_rod",
+      "count": 2
+    }
+  ],
+  "processing_time": 1000
+}

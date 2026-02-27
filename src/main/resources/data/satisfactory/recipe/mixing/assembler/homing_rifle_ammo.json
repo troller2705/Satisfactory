@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:high_speed_connector" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" },
+    { "item": "satisfactory:rifle_ammo" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:homing_rifle_ammo",
+      "count": 10
+    }
+  ],
+  "processing_time": 800
+}

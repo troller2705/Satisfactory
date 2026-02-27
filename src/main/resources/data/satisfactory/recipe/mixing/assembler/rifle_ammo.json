@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "tag": "c:sheet/copper" },
+    { "tag": "c:sheet/copper" },
+    { "tag": "c:sheet/copper" },
+    { "item": "satisfactory:smokeless_powder" },
+    { "item": "satisfactory:smokeless_powder" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:rifle_ammo",
+      "count": 15
+    }
+  ],
+  "processing_time": 400
+}

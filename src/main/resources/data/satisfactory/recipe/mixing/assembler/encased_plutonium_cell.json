@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:plutonium_pellet" },
+    { "item": "satisfactory:plutonium_pellet" },
+    { "item": "satisfactory:concrete" },
+    { "item": "satisfactory:concrete" },
+    { "item": "satisfactory:concrete" },
+    { "item": "satisfactory:concrete" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:encased_plutonium_cell",
+      "count": 5
+    }
+  ],
+  "processing_time": 400
+}

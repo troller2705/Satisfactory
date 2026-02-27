@@ -1,1 +1,12 @@
 /reload
+/tick rate 60
+/tick rate 120
+/tick rate 20
+/neoforge tps
+/fill 13 62 8
+/fill 13 62 8 ~ ~ ~ air
+/kill @e
+/fill 13 62 8 ~ ~ ~ minecraft:grass_block
+/fill 13 62 8 ~ ~ ~ air
+/fill 13 62 8 ~ ~ ~ minecraft:grass_block
+/reload
