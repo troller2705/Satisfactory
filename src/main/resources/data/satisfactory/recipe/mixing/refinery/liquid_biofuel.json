@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "fluid": "minecraft:water", "amount": 3000 },
+    { "item": "satisfactory:solid_biofuel"},
+    { "item": "satisfactory:solid_biofuel"},
+    { "item": "satisfactory:solid_biofuel"},
+    { "item": "satisfactory:solid_biofuel"},
+    { "item": "satisfactory:solid_biofuel"},
+    { "item": "satisfactory:solid_biofuel"}
+  ],
+  "results": [
+    { "fluid": "satisfactory:liquid_biofuel", "amount": 4000 }
+  ],
+  "processing_duration": 133,
+  "heat_requirement": "heated"
+}

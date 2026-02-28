@@ -1,0 +1,13 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "fluid": "satisfactory:heavy_oil_residue", "amount": 1000 },
+    { "item": "satisfactory:black_powder" },
+    { "item": "satisfactory:black_powder" }
+  ],
+  "results": [
+    { "item": "satisfactory:smokeless_powder", "count": 2 }
+  ],
+  "processing_duration": 200,
+  "heat_requirement": "heated"
+}

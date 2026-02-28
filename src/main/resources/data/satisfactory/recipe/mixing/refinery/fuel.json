@@ -1,0 +1,12 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "fluid": "satisfactory:crude_oil", "amount": 6000 }
+  ],
+  "results": [
+    { "item": "satisfactory:polymer_resin", "count": 3 },
+    { "fluid": "satisfactory:fuel", "amount": 4000 }
+  ],
+  "processing_duration": 200,
+  "heat_requirement": "heated"
+}

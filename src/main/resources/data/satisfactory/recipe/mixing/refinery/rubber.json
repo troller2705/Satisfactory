@@ -4,8 +4,8 @@
     { "fluid": "satisfactory:crude_oil", "amount": 3000 }
   ],
   "results": [
-    { "item": "satisfactory:plastic", "count": 3 },
-    { "fluid": "satisfactory:heavy_oil_residue", "amount": 1000 }
+    { "item": "satisfactory:rubber", "count": 2 },
+    { "fluid": "satisfactory:heavy_oil_residue", "amount": 2000 }
   ],
   "processing_duration": 200,
   "heat_requirement": "heated"
