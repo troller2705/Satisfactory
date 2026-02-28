@@ -1,0 +1,13 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:caterium_ingot" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:quickwire",
+      "count": 5
+    }
+  ],
+  "processing_time": 166
+}

@@ -1,12 +1,24 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "satisfactory:nobelisk" },
-    { "item": "satisfactory:nobelisk" },
-    { "item": "satisfactory:nobelisk" },
-    { "item": "satisfactory:nobelisk" },
-    { "item": "satisfactory:nobelisk" },
-    { "item": "satisfactory:crystal_oscillator" }
+    {
+      "item": "satisfactory:nobelisk"
+    },
+    {
+      "item": "satisfactory:nobelisk"
+    },
+    {
+      "item": "satisfactory:nobelisk"
+    },
+    {
+      "item": "satisfactory:nobelisk"
+    },
+    {
+      "item": "satisfactory:nobelisk"
+    },
+    {
+      "item": "satisfactory:crystal_oscillator"
+    }
   ],
   "results": [
     {

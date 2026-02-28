@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    { "item": "satisfactory:aluminum_ingot" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:empty_fuel_tank",
+      "count": 1
+    }
+  ],
+  "processing_time": 33
+}

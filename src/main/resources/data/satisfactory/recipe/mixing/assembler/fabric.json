@@ -1,12 +1,24 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "satisfactory:mycelia" },
-    { "item": "satisfactory:biomass" },
-    { "item": "satisfactory:biomass" },
-    { "item": "satisfactory:biomass" },
-    { "item": "satisfactory:biomass" },
-    { "item": "satisfactory:biomass" }
+    {
+      "item": "satisfactory:mycelia"
+    },
+    {
+      "item": "satisfactory:biomass"
+    },
+    {
+      "item": "satisfactory:biomass"
+    },
+    {
+      "item": "satisfactory:biomass"
+    },
+    {
+      "item": "satisfactory:biomass"
+    },
+    {
+      "item": "satisfactory:biomass"
+    }
   ],
   "results": [
     {

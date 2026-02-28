@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    { "item": "minecraft:iron_ingot" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:iron_rod",
+      "count": 1
+    }
+  ],
+  "processing_time": 133
+}

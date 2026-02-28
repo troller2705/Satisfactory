@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:flower_petals" },
+    { "item": "satisfactory:flower_petals" },
+    { "item": "satisfactory:flower_petals" },
+    { "item": "satisfactory:flower_petals" },
+    { "item": "satisfactory:flower_petals" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:color_cartridge",
+      "count": 10
+    }
+  ],
+  "processing_time": 200
+}

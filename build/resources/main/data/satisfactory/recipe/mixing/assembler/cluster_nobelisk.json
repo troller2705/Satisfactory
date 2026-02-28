@@ -9,13 +9,25 @@
     },
     {
       "item": "satisfactory:nobelisk"
+    },
+    {
+      "item": "satisfactory:black_powder"
+    },
+    {
+      "item": "satisfactory:black_powder"
+    },
+    {
+      "item": "satisfactory:black_powder"
+    },
+    {
+      "item": "satisfactory:black_powder"
     }
   ],
   "results": [
     {
-      "id": "satisfactory:circuit_board",
+      "id": "satisfactory:cluster_nobelisk",
       "count": 1
     }
   ],
-  "processing_time": 160
+  "processing_time": 800
 }

@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    { "item": "minecraft:iron_ingot" },
+    { "item": "minecraft:iron_ingot" },
+    { "item": "minecraft:iron_ingot" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:iron_plate",
+      "count": 2
+    }
+  ],
+  "processing_time": 200
+}

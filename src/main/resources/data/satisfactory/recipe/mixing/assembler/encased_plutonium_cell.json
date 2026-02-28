@@ -1,12 +1,24 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "satisfactory:plutonium_pellet" },
-    { "item": "satisfactory:plutonium_pellet" },
-    { "item": "satisfactory:concrete" },
-    { "item": "satisfactory:concrete" },
-    { "item": "satisfactory:concrete" },
-    { "item": "satisfactory:concrete" }
+    {
+      "item": "satisfactory:plutonium_pellet"
+    },
+    {
+      "item": "satisfactory:plutonium_pellet"
+    },
+    {
+      "item": "satisfactory:concrete"
+    },
+    {
+      "item": "satisfactory:concrete"
+    },
+    {
+      "item": "satisfactory:concrete"
+    },
+    {
+      "item": "satisfactory:concrete"
+    }
   ],
   "results": [
     {

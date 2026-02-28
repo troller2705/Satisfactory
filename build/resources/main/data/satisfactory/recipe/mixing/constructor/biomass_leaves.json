@@ -1,0 +1,13 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:aluminum_ingot" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:biomass",
+      "count": 5
+    }
+  ],
+  "processing_time": 166
+}

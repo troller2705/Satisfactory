@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:quickwire" },
+    { "item": "satisfactory:quickwire" },
+    { "item": "satisfactory:quickwire" },
+    { "item": "satisfactory:quickwire" },
+    { "item": "satisfactory:quickwire" },
+    { "item": "satisfactory:iron_rebar" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:stun_rebar",
+      "count": 1
+    }
+  ],
+  "processing_time": 200
+}

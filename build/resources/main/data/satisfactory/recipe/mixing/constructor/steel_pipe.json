@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:steel_ingot" },
+    { "item": "satisfactory:steel_ingot" },
+    { "item": "satisfactory:steel_ingot" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:steel_pipe",
+      "count": 2
+    }
+  ],
+  "processing_time": 200
+}

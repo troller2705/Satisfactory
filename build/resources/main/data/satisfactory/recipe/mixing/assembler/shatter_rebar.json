@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:iron_rebar" },
+    { "item": "satisfactory:iron_rebar" },
+    { "item": "satisfactory:quartz_crystal" },
+    { "item": "satisfactory:quartz_crystal" },
+    { "item": "satisfactory:quartz_crystal" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:shatter_rebar",
+      "count": 1
+    }
+  ],
+  "processing_time": 400
+}

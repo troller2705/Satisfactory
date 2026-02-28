@@ -1,0 +1,13 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:stringer_remains" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:alien_protein",
+      "count": 1
+    }
+  ],
+  "processing_time": 100
+}

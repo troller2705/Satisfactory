@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:nobelisk" },
+    { "item": "satisfactory:nobelisk" },
+    { "item": "satisfactory:nobelisk" },
+    { "item": "satisfactory:nobelisk" },
+    { "item": "satisfactory:nobelisk" },
+    { "item": "satisfactory:crystal_oscillator" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:pulse_nobelisk",
+      "count": 5
+    }
+  ],
+  "processing_time": 2000
+}

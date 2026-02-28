@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:steel_pipe" },
+    { "item": "satisfactory:steel_pipe" },
+    { "item": "satisfactory:black_powder" },
+    { "item": "satisfactory:black_powder" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:nobelisk",
+      "count": 1
+    }
+  ],
+  "processing_time": 200
+}

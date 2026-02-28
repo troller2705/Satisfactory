@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "minecraft:raw_quartz" },
+    { "item": "minecraft:raw_quartz" },
+    { "item": "minecraft:raw_quartz" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:silica",
+      "count": 5
+    }
+  ],
+  "processing_time": 266
+}

@@ -1,12 +1,24 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "satisfactory:quickwire" },
-    { "item": "satisfactory:quickwire" },
-    { "item": "satisfactory:quickwire" },
-    { "item": "satisfactory:quickwire" },
-    { "item": "satisfactory:quickwire" },
-    { "item": "satisfactory:iron_rebar" }
+    {
+      "item": "satisfactory:quickwire"
+    },
+    {
+      "item": "satisfactory:quickwire"
+    },
+    {
+      "item": "satisfactory:quickwire"
+    },
+    {
+      "item": "satisfactory:quickwire"
+    },
+    {
+      "item": "satisfactory:quickwire"
+    },
+    {
+      "item": "satisfactory:iron_rebar"
+    }
   ],
   "results": [
     {

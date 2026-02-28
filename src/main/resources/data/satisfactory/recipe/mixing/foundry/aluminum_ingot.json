@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    { "item": "satisfactory:aluminum_scrap" },
+    { "item": "satisfactory:aluminum_scrap" },
+    { "item": "satisfactory:aluminum_scrap" },
+    { "item": "satisfactory:aluminum_scrap" },
+    { "item": "satisfactory:aluminum_scrap" },
+    { "item": "satisfactory:aluminum_scrap" },
+    { "item": "satisfactory:silica" },
+    { "item": "satisfactory:silica" },
+    { "item": "satisfactory:silica" },
+    { "item": "satisfactory:silica" },
+    { "item": "satisfactory:silica" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:aluminum_ingot",
+      "count": 4
+    }
+  ],
+  "processing_time": 133
+}

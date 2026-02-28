@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:biomass",
+      "count": 10
+    }
+  ],
+  "processing_time": 133
+}

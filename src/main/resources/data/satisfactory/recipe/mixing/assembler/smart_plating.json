@@ -1,8 +1,12 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "satisfactory:reinforced_iron_plate" },
-    { "item": "satisfactory:rotor" }
+    {
+      "item": "satisfactory:reinforced_iron_plate"
+    },
+    {
+      "item": "satisfactory:rotor"
+    }
   ],
   "results": [
     {

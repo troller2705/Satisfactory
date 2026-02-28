@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    { "item": "satisfactory:steel_ingot" },
+    { "item": "satisfactory:steel_ingot" },
+    { "item": "satisfactory:steel_ingot" },
+    { "item": "satisfactory:steel_ingot" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:steel_beam",
+      "count": 1
+    }
+  ],
+  "processing_time": 133
+}

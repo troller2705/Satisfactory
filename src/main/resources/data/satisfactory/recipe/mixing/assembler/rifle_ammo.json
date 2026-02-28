@@ -1,11 +1,21 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "tag": "c:sheet/copper" },
-    { "tag": "c:sheet/copper" },
-    { "tag": "c:sheet/copper" },
-    { "item": "satisfactory:smokeless_powder" },
-    { "item": "satisfactory:smokeless_powder" }
+    {
+      "tag": "c:sheet/copper"
+    },
+    {
+      "tag": "c:sheet/copper"
+    },
+    {
+      "tag": "c:sheet/copper"
+    },
+    {
+      "item": "satisfactory:smokeless_powder"
+    },
+    {
+      "item": "satisfactory:smokeless_powder"
+    }
   ],
   "results": [
     {

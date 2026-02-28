@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    { "item": "satisfactory:aluminum_ingot" },
+    { "item": "satisfactory:aluminum_ingot" },
+    { "item": "satisfactory:aluminum_ingot" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:aluminum_casing",
+      "count": 2
+    }
+  ],
+  "processing_time": 66
+}

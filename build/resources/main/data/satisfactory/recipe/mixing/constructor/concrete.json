@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "create:limestone" },
+    { "item": "create:limestone" },
+    { "item": "create:limestone" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:concrete",
+      "count": 1
+    }
+  ],
+  "processing_time": 133
+}

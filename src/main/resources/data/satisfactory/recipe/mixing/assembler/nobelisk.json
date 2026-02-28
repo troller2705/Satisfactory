@@ -1,10 +1,18 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "satisfactory:steel_pipe" },
-    { "item": "satisfactory:steel_pipe" },
-    { "item": "satisfactory:black_powder" },
-    { "item": "satisfactory:black_powder" }
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:black_powder"
+    },
+    {
+      "item": "satisfactory:black_powder"
+    }
   ],
   "results": [
     {

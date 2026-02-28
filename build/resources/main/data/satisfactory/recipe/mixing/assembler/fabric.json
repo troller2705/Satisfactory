@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:biomass" },
+    { "item": "satisfactory:biomass" },
+    { "item": "satisfactory:biomass" },
+    { "item": "satisfactory:biomass" },
+    { "item": "satisfactory:biomass" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:fabric",
+      "count": 1
+    }
+  ],
+  "processing_time": 133
+}

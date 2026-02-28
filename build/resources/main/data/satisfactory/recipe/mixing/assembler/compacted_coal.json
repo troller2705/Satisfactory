@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "minecraft:coal" },
+    { "item": "minecraft:coal" },
+    { "item": "minecraft:coal" },
+    { "item": "minecraft:coal" },
+    { "item": "minecraft:coal" },
+    { "item": "satisfactory:sulfer" },
+    { "item": "satisfactory:sulfer" },
+    { "item": "satisfactory:sulfer" },
+    { "item": "satisfactory:sulfer" },
+    { "item": "satisfactory:sulfer" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:compacted_coal",
+      "count": 5
+    }
+  ],
+  "processing_time": 400
+}

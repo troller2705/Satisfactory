@@ -1,0 +1,13 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:iron_rod" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:iron_rebar",
+      "count": 1
+    }
+  ],
+  "processing_time": 133
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    { "tag": "minecraft:logs" },
+    { "tag": "minecraft:logs" },
+    { "tag": "minecraft:logs" },
+    { "tag": "minecraft:logs" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:biomass",
+      "count": 20
+    }
+  ],
+  "processing_time": 133
+}

@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:steel_beam" },
+    { "item": "satisfactory:steel_beam" },
+    { "item": "satisfactory:steel_beam" },
+    { "item": "satisfactory:concrete" },
+    { "item": "satisfactory:concrete" },
+    { "item": "satisfactory:concrete" },
+    { "item": "satisfactory:concrete" },
+    { "item": "satisfactory:concrete" },
+    { "item": "satisfactory:concrete" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:encased_industrial_beam",
+      "count": 1
+    }
+  ],
+  "processing_time": 333
+}

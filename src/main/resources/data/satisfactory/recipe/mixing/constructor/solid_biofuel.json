@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    { "item": "satisfactory:biomass" },
+    { "item": "satisfactory:biomass" },
+    { "item": "satisfactory:biomass" },
+    { "item": "satisfactory:biomass" },
+    { "item": "satisfactory:biomass" },
+    { "item": "satisfactory:biomass" },
+    { "item": "satisfactory:biomass" },
+    { "item": "satisfactory:biomass" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:solid_biofuel",
+      "count": 4
+    }
+  ],
+  "processing_time": 133
+}

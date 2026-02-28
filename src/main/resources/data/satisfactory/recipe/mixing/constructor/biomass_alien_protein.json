@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    { "item": "satisfactory:alien_protein" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:biomass",
+      "count": 100
+    }
+  ],
+  "processing_time": 133
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    { "item": "minecraft:copper_ingot" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:wire",
+      "count": 2
+    }
+  ],
+  "processing_time": 133
+}

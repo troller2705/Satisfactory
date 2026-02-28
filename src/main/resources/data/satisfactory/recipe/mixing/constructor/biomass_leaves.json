@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    { "tag": "minecraft:leaves" },
+    { "tag": "minecraft:leaves" },
+    { "tag": "minecraft:leaves" },
+    { "tag": "minecraft:leaves" },
+    { "tag": "minecraft:leaves" },
+    { "tag": "minecraft:leaves" },
+    { "tag": "minecraft:leaves" },
+    { "tag": "minecraft:leaves" },
+    { "tag": "minecraft:leaves" },
+    { "tag": "minecraft:leaves" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:biomass",
+      "count": 5
+    }
+  ],
+  "processing_time": 166
+}

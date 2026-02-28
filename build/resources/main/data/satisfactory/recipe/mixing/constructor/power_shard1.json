@@ -1,0 +1,13 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:blue_power_slug" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:power_shard",
+      "count": 1
+    }
+  ],
+  "processing_time": 266
+}

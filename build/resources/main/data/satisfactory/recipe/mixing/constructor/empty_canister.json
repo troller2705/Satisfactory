@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:plastic" },
+    { "item": "satisfactory:plastic" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:empty_canister",
+      "count": 4
+    }
+  ],
+  "processing_time": 133
+}

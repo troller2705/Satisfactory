@@ -1,27 +1,69 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "satisfactory:high_speed_connector" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" },
-    { "item": "satisfactory:rifle_ammo" }
+    {
+      "item": "satisfactory:high_speed_connector"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    },
+    {
+      "item": "satisfactory:rifle_ammo"
+    }
   ],
   "results": [
     {
