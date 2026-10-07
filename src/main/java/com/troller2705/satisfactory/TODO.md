@@ -1,5 +1,5 @@
 # Satisfactory x Create (NeoForge 1.21.1) - Project Roadmap
-
+[template_foundation.json](../../../../../../../../ATLauncher/instances/SATTEST/config/InfinityNexus/structures/client/template_foundation.json)
 ## Phase 1: Core Engine Modifications (✅ Completed)
 - [x] Configure `mods.toml` and `satisfactory.mixins.json`
 - [x] Write `MechanicalMixerMixin.java` using `@Redirect` on `Mth.clamp` to bypass the 512-tick limit (increased to 16,384)
@@ -15,11 +15,11 @@
 - [ ] Upgrade `SatisfactoryMixingBuilder` to support Create Heat parameters (`heated`, `superheated`)
 
 ## Phase 3: Item & Fluid Registries (⏳ To Do)
-- [ ] **Standard Items (`DeferredRegister.Items`)**
-  - [ ] Tier 1-4 (Iron Plates, Rotors, Modular Frames, Steel Pipes)
-  - [ ] Tier 5-6 (Computers, Heavy Modular Frames, Circuit Boards)
-  - [ ] Tier 7-8 (Supercomputers, Cooling Systems, Fused Modular Frames)
-  - [ ] Space Elevator Project Parts (Smart Plating to Assembly Director Systems)
+- [x] **Standard Items (`DeferredRegister.Items`)**
+  - [x] Tier 1-4 (Iron Plates, Rotors, Modular Frames, Steel Pipes)
+  - [x] Tier 5-6 (Computers, Heavy Modular Frames, Circuit Boards)
+  - [x] Tier 7-8 (Supercomputers, Cooling Systems, Fused Modular Frames)
+  - [x] Space Elevator Project Parts (Smart Plating to Assembly Director Systems)
 - [ ] **Tools & Equipment**
   - [ ] Xeno-Zapper / Xeno-Basher (Melee weapons)
   - [ ] Chainsaw (Foliage clearing, consumes fuel)
@@ -49,7 +49,7 @@
   - [ ] Byproduct stall mechanics (Machine halts if fluid/item output is backed up)
   - [ ] Overflow logic mapping (Smart Fluid Pipes & Threshold Switches to prioritize processing over sinking)
 - [ ] **Machine Equivalents Setup**
-  - [ ] Smelter/Foundry -> Bulk Blasting or Heated Basin
+  - [ ] Smelter/Foundry -> Bulk Blasting
   - [ ] Constructor -> Mechanical Press / Deployer
   - [ ] Assembler -> 2-Input Basin or Mechanical Crafters
 

@@ -57,7 +57,8 @@ public class Satisfactory
     // 1. Define your item names by Tier or Category
     // Ores and Raw Resources (For your Nodes/Smelter system)
     private static final List<String> RESOURCES = List.of(
-            "raw_caterium", "sulfur", "bauxite", "uranium", "sam_ore", "compacted_coal", "quartz_crystal", "flower_petals"
+            "raw_caterium", "sulfur", "raw_bauxite", "raw_uranium", "sam_ore", "caterium_ore", "bauxite_ore",
+            "compacted_coal", "quartz_crystal", "flower_petals"
     );
 
     // Tier 0 - Hub Essentials
