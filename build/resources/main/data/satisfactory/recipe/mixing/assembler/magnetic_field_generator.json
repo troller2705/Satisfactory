@@ -1,13 +1,27 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "satisfactory:versatile_framework" },
-    { "item": "satisfactory:versatile_framework" },
-    { "item": "satisfactory:versatile_framework" },
-    { "item": "satisfactory:versatile_framework" },
-    { "item": "satisfactory:versatile_framework" },
-    { "item": "satisfactory:electromagnetic_control_rod" },
-    { "item": "satisfactory:electromagnetic_control_rod" }
+    {
+      "item": "satisfactory:versatile_framework"
+    },
+    {
+      "item": "satisfactory:versatile_framework"
+    },
+    {
+      "item": "satisfactory:versatile_framework"
+    },
+    {
+      "item": "satisfactory:versatile_framework"
+    },
+    {
+      "item": "satisfactory:versatile_framework"
+    },
+    {
+      "item": "satisfactory:electromagnetic_control_rod"
+    },
+    {
+      "item": "satisfactory:electromagnetic_control_rod"
+    }
   ],
   "results": [
     {

@@ -1,11 +1,21 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "satisfactory:iron_rebar" },
-    { "item": "satisfactory:iron_rebar" },
-    { "item": "satisfactory:quartz_crystal" },
-    { "item": "satisfactory:quartz_crystal" },
-    { "item": "satisfactory:quartz_crystal" }
+    {
+      "item": "satisfactory:iron_rebar"
+    },
+    {
+      "item": "satisfactory:iron_rebar"
+    },
+    {
+      "item": "satisfactory:quartz_crystal"
+    },
+    {
+      "item": "satisfactory:quartz_crystal"
+    },
+    {
+      "item": "satisfactory:quartz_crystal"
+    }
   ],
   "results": [
     {

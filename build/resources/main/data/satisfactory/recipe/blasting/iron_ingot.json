@@ -1,0 +1,10 @@
+{
+  "type": "create:blasting",
+  "ingredients": [
+    { "item": "minecraft:raw_iron" }
+  ],
+  "results": [
+    { "item": "minecraft:iron_ingot" }
+  ],
+  "cookingtime": 66
+}

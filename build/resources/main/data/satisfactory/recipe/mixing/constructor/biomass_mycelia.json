@@ -1,7 +1,17 @@
 {
   "type": "create:mixing",
+  "heat_requirement": "superheated",
   "ingredients": [
-    { "item": "satisfactory:aluminum_ingot" }
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" },
+    { "item": "satisfactory:mycelia" }
   ],
   "results": [
     {

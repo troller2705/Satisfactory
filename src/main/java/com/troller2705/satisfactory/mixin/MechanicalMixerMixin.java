@@ -19,14 +19,14 @@ public abstract class MechanicalMixerMixin extends BasinOperatingBlockEntity {
 
     /**
      * Redirects the Mth.clamp call specifically inside the Mixer's tick method.
-     * This forces the max value to 10,000 instead of 512.
+     * This forces the max value to 16,384 instead of 512.
      */
     @Redirect(
             method = "tick",
             at = @At(value = "INVOKE", target = "Lnet/minecraft/util/Mth;clamp(III)I")
     )
     private int satisfactory$increaseMixerCap(int value, int min, int max) {
-        // If the original code is trying to clamp to 512, we increase it to 10,000
+        // If the original code is trying to clamp to 512, we increase it to 16,384
         if (max == 512) {
             return Mth.clamp(value, min, 16384);
         }

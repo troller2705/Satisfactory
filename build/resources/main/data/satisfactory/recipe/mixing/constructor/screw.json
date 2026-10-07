@@ -1,5 +1,6 @@
 {
   "type": "create:mixing",
+  "heat_requirement": "superheated",
   "ingredients": [
     {
       "tag": "c:rods/iron"

@@ -7,6 +7,6 @@
     { "item": "satisfactory:plastic", "count": 3 },
     { "fluid": "satisfactory:heavy_oil_residue", "amount": 1000 }
   ],
-  "processing_duration": 120,
+  "processing_duration": 200,
   "heat_requirement": "heated"
 }

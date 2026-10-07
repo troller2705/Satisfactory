@@ -1,0 +1,11 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "fluid": "satisfactory:heavy_oil_residue", "amount": 6000 }
+  ],
+  "results": [
+    { "fluid": "satisfactory:fuel", "amount": 4000 }
+  ],
+  "processing_duration": 200,
+  "heat_requirement": "heated"
+}

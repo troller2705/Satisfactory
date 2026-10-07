@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "fluid": "satisfactory:alumina_solution", "amount": 4000 },
+    { "item": "minecraft:coal" },
+    { "item": "minecraft:coal" }
+  ],
+  "results": [
+    { "item": "satisfactory:aluminum_scrap", "count": 6 },
+    { "fluid": "minecraft:water", "amount": 2000 }
+  ],
+  "processing_duration": 33,
+  "heat_requirement": "heated"
+}

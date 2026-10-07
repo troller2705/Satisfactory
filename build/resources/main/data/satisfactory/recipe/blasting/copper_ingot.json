@@ -1,0 +1,10 @@
+{
+  "type": "create:blasting",
+  "ingredients": [
+    { "item": "minecraft:raw_copper" }
+  ],
+  "results": [
+    { "item": "minecraft:copper_ingot" }
+  ],
+  "cookingtime": 66
+}

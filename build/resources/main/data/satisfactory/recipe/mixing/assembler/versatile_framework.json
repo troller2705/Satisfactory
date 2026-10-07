@@ -1,19 +1,45 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "satisfactory:steel_beam" },
-    { "item": "satisfactory:steel_beam" },
-    { "item": "satisfactory:steel_beam" },
-    { "item": "satisfactory:steel_beam" },
-    { "item": "satisfactory:steel_beam" },
-    { "item": "satisfactory:steel_beam" },
-    { "item": "satisfactory:steel_beam" },
-    { "item": "satisfactory:steel_beam" },
-    { "item": "satisfactory:steel_beam" },
-    { "item": "satisfactory:steel_beam" },
-    { "item": "satisfactory:steel_beam" },
-    { "item": "satisfactory:steel_beam" },
-    { "item": "satisfactory:modular_frame" }
+    {
+      "item": "satisfactory:steel_beam"
+    },
+    {
+      "item": "satisfactory:steel_beam"
+    },
+    {
+      "item": "satisfactory:steel_beam"
+    },
+    {
+      "item": "satisfactory:steel_beam"
+    },
+    {
+      "item": "satisfactory:steel_beam"
+    },
+    {
+      "item": "satisfactory:steel_beam"
+    },
+    {
+      "item": "satisfactory:steel_beam"
+    },
+    {
+      "item": "satisfactory:steel_beam"
+    },
+    {
+      "item": "satisfactory:steel_beam"
+    },
+    {
+      "item": "satisfactory:steel_beam"
+    },
+    {
+      "item": "satisfactory:steel_beam"
+    },
+    {
+      "item": "satisfactory:steel_beam"
+    },
+    {
+      "item": "satisfactory:modular_frame"
+    }
   ],
   "results": [
     {

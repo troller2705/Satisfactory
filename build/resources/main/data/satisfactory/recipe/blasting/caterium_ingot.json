@@ -1,10 +1,12 @@
 {
   "type": "create:blasting",
   "ingredients": [
-    { "item": "yourmod:raw_caterium" }
+    { "item": "satisfactory:raw_caterium" },
+    { "item": "satisfactory:raw_caterium" },
+    { "item": "satisfactory:raw_caterium" }
   ],
   "results": [
-    { "item": "yourmod:caterium_ingot" }
+    { "item": "satisfactory:caterium_ingot" }
   ],
-  "cookingtime": 100
+  "cookingtime": 133
 }

@@ -1,24 +1,60 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "tag": "c:sheet/iron" },
-    { "tag": "c:sheet/iron" },
-    { "tag": "c:sheet/iron" },
-    { "tag": "c:sheet/iron" },
-    { "tag": "c:sheet/iron" },
-    { "tag": "c:sheet/iron" },
-    { "item": "satisfactory:screw"},
-    { "item": "satisfactory:screw"},
-    { "item": "satisfactory:screw"},
-    { "item": "satisfactory:screw"},
-    { "item": "satisfactory:screw"},
-    { "item": "satisfactory:screw"},
-    { "item": "satisfactory:screw"},
-    { "item": "satisfactory:screw"},
-    { "item": "satisfactory:screw"},
-    { "item": "satisfactory:screw"},
-    { "item": "satisfactory:screw"},
-    { "item": "satisfactory:screw"}
+    {
+      "tag": "c:sheet/iron"
+    },
+    {
+      "tag": "c:sheet/iron"
+    },
+    {
+      "tag": "c:sheet/iron"
+    },
+    {
+      "tag": "c:sheet/iron"
+    },
+    {
+      "tag": "c:sheet/iron"
+    },
+    {
+      "tag": "c:sheet/iron"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    },
+    {
+      "item": "satisfactory:screw"
+    }
   ],
   "results": [
     {

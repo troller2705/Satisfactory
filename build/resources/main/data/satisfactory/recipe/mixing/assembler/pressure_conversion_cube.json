@@ -1,9 +1,15 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "satisfactory:fused_modular_frame" },
-    { "item": "satisfactory:radio_control_unit" },
-    { "item": "satisfactory:radio_control_unit" }
+    {
+      "item": "satisfactory:fused_modular_frame"
+    },
+    {
+      "item": "satisfactory:radio_control_unit"
+    },
+    {
+      "item": "satisfactory:radio_control_unit"
+    }
   ],
   "results": [
     {

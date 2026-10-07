@@ -1,11 +1,21 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "satisfactory:stator" },
-    { "item": "satisfactory:stator" },
-    { "item": "satisfactory:stator" },
-    { "item": "satisfactory:ai_limiter" },
-    { "item": "satisfactory:ai_limiter" }
+    {
+      "item": "satisfactory:stator"
+    },
+    {
+      "item": "satisfactory:stator"
+    },
+    {
+      "item": "satisfactory:stator"
+    },
+    {
+      "item": "satisfactory:ai_limiter"
+    },
+    {
+      "item": "satisfactory:ai_limiter"
+    }
   ],
   "results": [
     {

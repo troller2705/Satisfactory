@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "fluid": "minecraft:water", "amount": 2000 },
+    { "item": "satisfactory:polymer_resin" },
+    { "item": "satisfactory:polymer_resin" },
+    { "item": "satisfactory:polymer_resin" },
+    { "item": "satisfactory:polymer_resin" },
+    { "item": "satisfactory:polymer_resin" },
+    { "item": "satisfactory:polymer_resin" }
+  ],
+  "results": [
+    { "item": "satisfactory:plastic", "count": 2 }
+  ],
+  "processing_duration": 200,
+  "heat_requirement": "heated"
+}

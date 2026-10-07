@@ -1,10 +1,18 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "satisfactory:rotor" },
-    { "item": "satisfactory:rotor" },
-    { "item": "satisfactory:stator" },
-    { "item": "satisfactory:stator" }
+    {
+      "item": "satisfactory:rotor"
+    },
+    {
+      "item": "satisfactory:rotor"
+    },
+    {
+      "item": "satisfactory:stator"
+    },
+    {
+      "item": "satisfactory:stator"
+    }
   ],
   "results": [
     {

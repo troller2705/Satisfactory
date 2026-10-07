@@ -1,0 +1,13 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "satisfactory:alien_protein" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:alien_dna_capsule",
+      "count": 1
+    }
+  ],
+  "processing_time": 200
+}

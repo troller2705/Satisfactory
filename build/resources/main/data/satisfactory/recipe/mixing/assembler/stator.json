@@ -1,17 +1,39 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "satisfactory:wire" },
-    { "item": "satisfactory:wire" },
-    { "item": "satisfactory:wire" },
-    { "item": "satisfactory:wire" },
-    { "item": "satisfactory:wire" },
-    { "item": "satisfactory:wire" },
-    { "item": "satisfactory:wire" },
-    { "item": "satisfactory:wire" },
-    { "item": "satisfactory:steel_pipe" },
-    { "item": "satisfactory:steel_pipe" },
-    { "item": "satisfactory:steel_pipe" }
+    {
+      "item": "satisfactory:wire"
+    },
+    {
+      "item": "satisfactory:wire"
+    },
+    {
+      "item": "satisfactory:wire"
+    },
+    {
+      "item": "satisfactory:wire"
+    },
+    {
+      "item": "satisfactory:wire"
+    },
+    {
+      "item": "satisfactory:wire"
+    },
+    {
+      "item": "satisfactory:wire"
+    },
+    {
+      "item": "satisfactory:wire"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    },
+    {
+      "item": "satisfactory:steel_pipe"
+    }
   ],
   "results": [
     {

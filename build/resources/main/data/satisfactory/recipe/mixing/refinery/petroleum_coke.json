@@ -1,0 +1,11 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "fluid": "satisfactory:heavy_oil_residue", "amount": 4000 }
+  ],
+  "results": [
+    { "item": "satisfactory:petroleum_coke", "count": 12 }
+  ],
+  "processing_duration": 200,
+  "heat_requirement": "heated"
+}

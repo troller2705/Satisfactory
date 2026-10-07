@@ -1,0 +1,57 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "satisfactory:reinforced_iron_plate"
+    },
+    {
+      "item": "satisfactory:reinforced_iron_plate"
+    },
+    {
+      "item": "satisfactory:reinforced_iron_plate"
+    },
+    {
+      "tag": "c:rod/iron"
+    },
+    {
+      "tag": "c:rod/iron"
+    },
+    {
+      "tag": "c:rod/iron"
+    },
+    {
+      "tag": "c:rod/iron"
+    },
+    {
+      "tag": "c:rod/iron"
+    },
+    {
+      "tag": "c:rod/iron"
+    },
+    {
+      "tag": "c:rod/iron"
+    },
+    {
+      "tag": "c:rod/iron"
+    },
+    {
+      "tag": "c:rod/iron"
+    },
+    {
+      "tag": "c:rod/iron"
+    },
+    {
+      "tag": "c:rod/iron"
+    },
+    {
+      "tag": "c:rod/iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:modular_frame",
+      "count": 2
+    }
+  ],
+  "processing_time": 2000
+}

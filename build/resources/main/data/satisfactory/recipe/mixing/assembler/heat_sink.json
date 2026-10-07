@@ -1,14 +1,30 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "satisfactory:alclad_aluminum_sheet" },
-    { "item": "satisfactory:alclad_aluminum_sheet" },
-    { "item": "satisfactory:alclad_aluminum_sheet" },
-    { "item": "satisfactory:alclad_aluminum_sheet" },
-    { "item": "satisfactory:alclad_aluminum_sheet" },
-    { "tag": "c:sheet/copper" },
-    { "tag": "c:sheet/copper" },
-    { "tag": "c:sheet/copper" }
+    {
+      "item": "satisfactory:alclad_aluminum_sheet"
+    },
+    {
+      "item": "satisfactory:alclad_aluminum_sheet"
+    },
+    {
+      "item": "satisfactory:alclad_aluminum_sheet"
+    },
+    {
+      "item": "satisfactory:alclad_aluminum_sheet"
+    },
+    {
+      "item": "satisfactory:alclad_aluminum_sheet"
+    },
+    {
+      "tag": "c:sheet/copper"
+    },
+    {
+      "tag": "c:sheet/copper"
+    },
+    {
+      "tag": "c:sheet/copper"
+    }
   ],
   "results": [
     {

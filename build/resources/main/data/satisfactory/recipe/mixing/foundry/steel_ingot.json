@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    { "item": "minecraft:raw_iron" },
+    { "item": "minecraft:raw_iron" },
+    { "item": "minecraft:raw_iron" },
+    { "item": "minecraft:coal" },
+    { "item": "minecraft:coal" },
+    { "item": "minecraft:coal" }
+  ],
+  "results": [
+    {
+      "item": "satisfactory:steel_ingot",
+      "count": 3
+    }
+  ],
+  "processing_time": 133
+}

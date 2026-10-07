@@ -1,7 +1,11 @@
 {
   "type": "create:mixing",
+  "heat_requirement": "superheated",
   "ingredients": [
-    { "item": "satisfactory:aluminum_ingot" }
+    { "tag": "minecraft:logs" },
+    { "tag": "minecraft:logs" },
+    { "tag": "minecraft:logs" },
+    { "tag": "minecraft:logs" }
   ],
   "results": [
     {

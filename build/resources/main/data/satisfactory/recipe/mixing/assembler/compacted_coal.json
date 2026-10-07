@@ -1,16 +1,36 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "ingredients": [
-    { "item": "minecraft:coal" },
-    { "item": "minecraft:coal" },
-    { "item": "minecraft:coal" },
-    { "item": "minecraft:coal" },
-    { "item": "minecraft:coal" },
-    { "item": "satisfactory:sulfer" },
-    { "item": "satisfactory:sulfer" },
-    { "item": "satisfactory:sulfer" },
-    { "item": "satisfactory:sulfer" },
-    { "item": "satisfactory:sulfer" }
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "satisfactory:sulfer"
+    },
+    {
+      "item": "satisfactory:sulfer"
+    },
+    {
+      "item": "satisfactory:sulfer"
+    },
+    {
+      "item": "satisfactory:sulfer"
+    },
+    {
+      "item": "satisfactory:sulfer"
+    }
   ],
   "results": [
     {
