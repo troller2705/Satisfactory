@@ -10,3 +10,7 @@
 /fill 13 62 8 ~ ~ ~ air
 /fill 13 62 8 ~ ~ ~ minecraft:grass_block
 /reload
+/fill -19 63 7
+/fill -19 63 7 ~ ~ ~ air
+/fill -63 63 7 ~ ~ ~ air
+/kill @e[type=!minecraft:player]
