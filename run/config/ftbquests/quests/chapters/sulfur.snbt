@@ -1,0 +1,12 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sulfur"
+	group: "2C5C625B3BA006C2"
+	id: "6B15E68D0B6C8980"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+}

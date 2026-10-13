@@ -1,0 +1,194 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_1"
+	group: "0F82527ED703D46A"
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/num_1"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "25AF3DD041E3A972"
+	images: [
+		{
+			click_action: "open_quest:1281DBFAEDD6D7EA"
+			dependency: "788A4770DA49D3FD"
+			height: 1.0d
+			id: "12FA3BD00A566B59"
+			image: "kubejs:item/next_page"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			click_action: "open_quest:33E21D6A66962DBD"
+			height: 1.0d
+			id: "43C98CFF227F6504"
+			image: "kubejs:item/back_page"
+			rotation: 0.0d
+			width: 0.8330078125d
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_1"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "788A4770DA49D3FD"
+			rewards: [
+				{
+					id: "184CDF36BCC6D822"
+					type: "custom"
+				}
+				{
+					id: "5097D947B787293C"
+					type: "custom"
+				}
+				{
+					id: "785C588C113F3B18"
+					type: "custom"
+				}
+				{
+					id: "03D15E465B8BD0A5"
+					type: "custom"
+				}
+			]
+			tasks: [
+				{
+					count: 200L
+					id: "468D5B729EE5C49F"
+					item: { count: 1, id: "satisfactory:concrete" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "3030CF1132BD4D36"
+					item: { count: 1, id: "satisfactory:iron_plate" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "594299D2EFA60C5D"
+					item: { count: 1, id: "satisfactory:iron_rod" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_2"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4464C123541E38DE"
+			rewards: [
+				{
+					id: "4FE944F6D15E39E2"
+					type: "custom"
+				}
+				{
+					id: "0DF22DC740366362"
+					type: "custom"
+				}
+				{
+					id: "640280F202F8A806"
+					type: "custom"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "minecraft:item/netherite_upgrade_smithing_template"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "0782F7E48E7764BA"
+					type: "custom"
+				}
+			]
+			tasks: [
+				{
+					count: 150L
+					id: "364B3D766AFDBE6E"
+					item: { count: 1, id: "satisfactory:concrete" }
+					type: "item"
+				}
+				{
+					count: 150L
+					id: "4444A64A0E2A4001"
+					item: { count: 1, id: "satisfactory:iron_plate" }
+					type: "item"
+				}
+				{
+					count: 300L
+					id: "211F12E52533D290"
+					item: { count: 1, id: "satisfactory:wire" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_3"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7C468648309F6D08"
+			rewards: [
+				{
+					id: "58E837475CACA729"
+					type: "custom"
+				}
+				{
+					id: "5599DAE8F21E63B0"
+					type: "custom"
+				}
+				{
+					id: "0C654CDD3813AFD3"
+					type: "custom"
+				}
+				{
+					id: "1E5B6605BE7AECA4"
+					type: "custom"
+				}
+			]
+			tasks: [
+				{
+					count: 300L
+					id: "624E601FF008870A"
+					item: { count: 1, id: "satisfactory:wire" }
+					type: "item"
+				}
+				{
+					count: 300L
+					id: "1521F5072E572690"
+					item: { count: 1, id: "satisfactory:screw" }
+					type: "item"
+				}
+				{
+					count: 150L
+					id: "78CE627F1E7D9E14"
+					item: { count: 1, id: "satisfactory:iron_rod" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+}

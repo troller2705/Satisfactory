@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "satisfactory:block/hub_terminal" },
+    "facing=east":  { "model": "satisfactory:block/hub_terminal", "y": 90 },
+    "facing=south": { "model": "satisfactory:block/hub_terminal", "y": 180 },
+    "facing=west":  { "model": "satisfactory:block/hub_terminal", "y": 270 }
+  }
+}

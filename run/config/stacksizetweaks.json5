@@ -1,0 +1,23 @@
+{
+	amountTooltip: true,
+	// Font options: "Vanilla", "Small", "Tiny"
+	customFont: "Small",
+	shortenItemAmounts: true,
+	vanillaComparatorAmounts: false,
+	itemStackLimit: 512,
+	blockStackLimit: 256,
+	foodStackLimit: 128,
+	lowStackLimit: 64,
+	stewStackLimit: 32,
+	potionStackLimit: 16,
+	bucketStackLimit: 16,
+	playableStackLimit: 16,
+	vehicleStackLimit: 16,
+	bedStackLimit: 16,
+	bannerPatternStackLimit: 16,
+	enchantedBookStackLimit: 16,
+	nonStackableStackLimit: 1,
+	overrides: [
+		"satisfactory:screw=500"
+	]
+}

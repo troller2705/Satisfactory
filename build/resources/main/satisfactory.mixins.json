@@ -3,7 +3,10 @@
   "package": "com.troller2705.satisfactory.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "MechanicalMixerMixin"
+    "MechanicalMixerMixin",
+    "CreateBasinStackSizeMixin",
+    "SmartInventoryMixin",
+    "SyncedStackHandlerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

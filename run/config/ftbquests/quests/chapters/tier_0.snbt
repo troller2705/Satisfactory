@@ -1,0 +1,206 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_0"
+	group: "0F82527ED703D46A"
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/roman_0"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "33E21D6A66962DBD"
+	images: [{
+		click_action: "open_quest:25AF3DD041E3A972"
+		dependency: "2FF7D4E641E34008"
+		height: 1.0d
+		id: "73DBF6AA6F383148"
+		image: "kubejs:item/next_page"
+		rotation: 0.0d
+		width: 1.0d
+		x: -3.0d
+		y: -6.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_1"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0E417186516A71C6"
+			tasks: [{
+				count: 10L
+				id: "3059C4C8484DA786"
+				item: { count: 1, id: "satisfactory:iron_rod" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0E417186516A71C6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_2"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7EA1B4F016DF10E8"
+			tasks: [
+				{
+					count: 20L
+					id: "0F8231D56D6A3C23"
+					item: { count: 1, id: "satisfactory:iron_rod" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "696BC2ABEC678892"
+					item: { count: 1, id: "satisfactory:iron_plate" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7EA1B4F016DF10E8"]
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_3"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3430F4A22CBA9ABE"
+			tasks: [
+				{
+					count: 20L
+					id: "59A602ECC99C11B2"
+					item: { count: 1, id: "satisfactory:iron_plate" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "17A7BF28640E475B"
+					item: { count: 1, id: "satisfactory:iron_rod" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "690DBBEBE5BA3835"
+					item: { count: 1, id: "satisfactory:wire" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3430F4A22CBA9ABE"]
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_4"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "039446CBE5247BB4"
+			tasks: [
+				{
+					count: 75L
+					id: "2C1ABAD13B4AFE33"
+					item: { count: 1, id: "satisfactory:iron_plate" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "096499B44824903B"
+					item: { count: 1, id: "satisfactory:wire" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1D43C678A8DD24DB"
+					item: { count: 1, id: "satisfactory:concrete" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["039446CBE5247BB4"]
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_5"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0638499B7985DF66"
+			tasks: [
+				{
+					count: 75L
+					id: "3EDA3A002DFF31E6"
+					item: { count: 1, id: "satisfactory:iron_rod" }
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "7963D346E1C6BC33"
+					item: { count: 1, id: "satisfactory:wire" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "63FE6288631645CC"
+					item: { count: 1, id: "satisfactory:concrete" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0638499B7985DF66"]
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_6"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2FF7D4E641E34008"
+			tasks: [
+				{
+					count: 100L
+					id: "4E8488AEA3978F9C"
+					item: { count: 1, id: "satisfactory:iron_rod" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "672DFC68B9C39B78"
+					item: { count: 1, id: "satisfactory:iron_plate" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "7096CE50E9D2AC3B"
+					item: { count: 1, id: "satisfactory:wire" }
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "16A5C97286991081"
+					item: { count: 1, id: "satisfactory:concrete" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -6.0d
+		}
+	]
+	require_sequential_tasks: true
+}

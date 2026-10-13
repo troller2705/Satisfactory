@@ -6,7 +6,11 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.material.Fluid;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
@@ -16,6 +20,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import net.neoforged.neoforge.client.extensions.common.IClientFluidTypeExtensions;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
@@ -37,14 +42,50 @@ public class Satisfactory
 
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MODID);
+    public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(Registries.BLOCK_ENTITY_TYPE, MODID);
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
     public static final DeferredRegister<FluidType> FLUID_TYPES = DeferredRegister.create(NeoForgeRegistries.Keys.FLUID_TYPES, MODID);
     public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(Registries.FLUID, MODID);
+    public static final DeferredRegister<net.minecraft.world.inventory.MenuType<?>> MENUS =
+            DeferredRegister.create(net.minecraft.core.registries.Registries.MENU, MODID);
+
+    // Register our Hub Menu
+    public static final DeferredHolder<net.minecraft.world.inventory.MenuType<?>, net.minecraft.world.inventory.MenuType<com.troller2705.satisfactory.menu.HubTerminalMenu>> HUB_TERMINAL_MENU =
+            MENUS.register("hub_terminal",
+                    () -> net.neoforged.neoforge.common.extensions.IMenuTypeExtension.create(com.troller2705.satisfactory.menu.HubTerminalMenu::new));
+
+    // 2. Register the Block
+    public static final DeferredBlock<Block> HUB_TERMINAL_BLOCK = BLOCKS.register("hub_terminal",
+            () -> new com.troller2705.satisfactory.blocks.HubTerminalBlock(
+                    net.minecraft.world.level.block.state.BlockBehaviour.Properties.of()
+                            .noOcclusion()
+                            .strength(3.0f)
+                            .requiresCorrectToolForDrops()
+            ));
+
+    // 3. Register the Item
+    public static final DeferredItem<BlockItem> HUB_TERMINAL_ITEM = ITEMS.register("hub_terminal",
+            () -> new BlockItem(HUB_TERMINAL_BLOCK.get(), new Item.Properties()));
+
+    // 4. Register the Block Entity
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<com.troller2705.satisfactory.blockentities.HubTerminalBlockEntity>> HUB_TERMINAL_BE =
+            BLOCK_ENTITIES.register("hub_terminal",
+                    () -> BlockEntityType.Builder.of(
+                            com.troller2705.satisfactory.blockentities.HubTerminalBlockEntity::new,
+                            HUB_TERMINAL_BLOCK.get()
+                    ).build(null));
+
+    // --- HELPER METHODS ---
+    private static <T extends Block> DeferredBlock<T> registerBlock(String name, java.util.function.Supplier<T> block) {
+        DeferredBlock<T> toReturn = BLOCKS.register(name, block);
+        ITEMS.register(name, () -> new BlockItem(toReturn.get(), new Item.Properties()));
+        return toReturn;
+    }
 
     // --- BATCH ITEM LISTS ---
 
     private static final List<String> RESOURCES = List.of(
-            "raw_caterium", "sulfur", "sulfur_ore", "raw_bauxite", "raw_uranium", "sam_ore", "caterium_ore", "bauxite_ore", "uranium_ore",
+            "raw_caterium", "sulfur", "raw_bauxite", "raw_uranium","sam",
             "compacted_coal", "quartz_crystal", "flower_petals", "iron_ore", "copper_ore", "limestone", "coal", "raw_quartz"
     );
 
@@ -175,6 +216,37 @@ public class Satisfactory
         });
     }
 
+    // --- ORE BLOCKS ---
+    public static final DeferredBlock<Block> CATERIUM_ORE = registerBlock("caterium_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 5), net.minecraft.world.level.block.state.BlockBehaviour.Properties.of()
+                    .strength(3.0f, 3.0f)
+                    .requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> SULFUR_ORE = registerBlock("sulfur_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 5), net.minecraft.world.level.block.state.BlockBehaviour.Properties.of()
+                    .strength(3.0f, 3.0f)
+                    .requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> BAUXITE_ORE = registerBlock("bauxite_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 5), net.minecraft.world.level.block.state.BlockBehaviour.Properties.of()
+                    .strength(3.0f, 3.0f)
+                    .requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> QUARTZ_ORE = registerBlock("quartz_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 5), net.minecraft.world.level.block.state.BlockBehaviour.Properties.of()
+                    .strength(3.0f, 3.0f)
+                    .requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> URANIUM_ORE = registerBlock("uranium_ore",
+            () -> new DropExperienceBlock(UniformInt.of(4, 7), net.minecraft.world.level.block.state.BlockBehaviour.Properties.of()
+                    .strength(4.0f, 4.0f)
+                    .requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> SAM_ORE = registerBlock("sam_ore",
+            () -> new DropExperienceBlock(UniformInt.of(4, 7), net.minecraft.world.level.block.state.BlockBehaviour.Properties.of()
+                    .strength(4.0f, 4.0f)
+                    .requiresCorrectToolForDrops()));
+
     // --- CREATIVE TAB ---
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SATISFACTORY_BASE =
@@ -194,9 +266,11 @@ public class Satisfactory
     {
         BLOCKS.register(modEventBus);
         ITEMS.register(modEventBus);
+        BLOCK_ENTITIES.register(modEventBus);
         FLUIDS.register(modEventBus);
         FLUID_TYPES.register(modEventBus);
         CREATIVE_MODE_TABS.register(modEventBus);
+        MENUS.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         modEventBus.addListener(this::addCreative);
@@ -246,5 +320,10 @@ public class Satisfactory
                 .findFirst()
                 .map(holder -> (Item) holder.get())
                 .orElse(Items.BARRIER);
+    }
+
+    @SubscribeEvent
+    public static void registerScreens(RegisterMenuScreensEvent event) {
+        event.register(Satisfactory.HUB_TERMINAL_MENU.get(), com.troller2705.satisfactory.gui.HubTerminalScreen::new);
     }
 }

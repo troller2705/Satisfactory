@@ -1,0 +1,305 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_5"
+	group: "0F82527ED703D46A"
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/num_5"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "24CFD40A2C86DEBC"
+	images: [
+		{
+			click_action: "open_quest:65FFADD833C5DA33"
+			height: 1.0d
+			id: "3BA7BF1B8A7B842C"
+			image: "kubejs:item/back_page"
+			rotation: 0.0d
+			width: 0.8330078125d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			click_action: "open_quest:45D898C0ADC34EA8"
+			dependency: "788A4770DA49D3FD"
+			height: 1.0d
+			id: "0DDA7144DC0BFF79"
+			image: "kubejs:item/next_page"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_1"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "56F13EDE0A935595"
+			rewards: [
+				{
+					id: "6F8699D15A6F3566"
+					type: "custom"
+				}
+				{
+					id: "4AD1B0D6ED3A204B"
+					type: "custom"
+				}
+				{
+					id: "5771410C82D41B75"
+					type: "custom"
+				}
+				{
+					id: "57C71DA3B2E7A7B9"
+					type: "custom"
+				}
+			]
+			tasks: [
+				{
+					count: 200L
+					id: "50AA06DD1615A224"
+					item: { count: 1, id: "minecraft:white_concrete" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "1681842B013FF154"
+					item: { count: 1, id: "create:iron_sheet" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "51C2B798587DC594"
+					item: { count: 1, id: "minecraft:iron_bars" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_1"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0ED7ED499BECE01F"
+			rewards: [
+				{
+					id: "1C8FA675CF53BECA"
+					type: "custom"
+				}
+				{
+					id: "6466F1E1D65EA649"
+					type: "custom"
+				}
+				{
+					id: "60F4C9AA349CD852"
+					type: "custom"
+				}
+				{
+					id: "1E30ABC8CA2435EA"
+					type: "custom"
+				}
+			]
+			tasks: [
+				{
+					count: 200L
+					id: "14AFA6D697F01BAF"
+					item: { count: 1, id: "minecraft:white_concrete" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "7FD37839FE79D93E"
+					item: { count: 1, id: "create:iron_sheet" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "526EF3ED20A09C73"
+					item: { count: 1, id: "minecraft:iron_bars" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_1"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4E08E185EC03CBD9"
+			rewards: [
+				{
+					id: "6077115B354620A9"
+					type: "custom"
+				}
+				{
+					id: "28C2A32E7CAD879C"
+					type: "custom"
+				}
+				{
+					id: "666788E8205C672E"
+					type: "custom"
+				}
+				{
+					id: "3120273E3DA543D8"
+					type: "custom"
+				}
+			]
+			tasks: [
+				{
+					count: 200L
+					id: "455D6E94607A39F5"
+					item: { count: 1, id: "minecraft:white_concrete" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "0A973DB699BE1966"
+					item: { count: 1, id: "create:iron_sheet" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "2C86A9B7027AD59F"
+					item: { count: 1, id: "minecraft:iron_bars" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_1"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "02BDA15E78AE7231"
+			rewards: [
+				{
+					id: "3709FB090FA06885"
+					type: "custom"
+				}
+				{
+					id: "45B4DAB61E6DFAFF"
+					type: "custom"
+				}
+				{
+					id: "5499531795397448"
+					type: "custom"
+				}
+				{
+					id: "42CD541A02AB78D8"
+					type: "custom"
+				}
+			]
+			tasks: [
+				{
+					count: 200L
+					id: "1F7494DEBEDFA5BE"
+					item: { count: 1, id: "minecraft:white_concrete" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "30709D27F48C9070"
+					item: { count: 1, id: "create:iron_sheet" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "313EE005AAB47E41"
+					item: { count: 1, id: "minecraft:iron_bars" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_1"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "236744A2F7A799AB"
+			rewards: [
+				{
+					id: "29DC186B3975C06D"
+					type: "custom"
+				}
+				{
+					id: "5456ADACDD3E2248"
+					type: "custom"
+				}
+				{
+					id: "25B269BBCE2C394C"
+					type: "custom"
+				}
+				{
+					id: "46539C9BA78EE26D"
+					type: "custom"
+				}
+			]
+			tasks: [
+				{
+					count: 200L
+					id: "297C69CC368310F0"
+					item: { count: 1, id: "minecraft:white_concrete" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "283575AF2EF1F8C6"
+					item: { count: 1, id: "create:iron_sheet" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "09033EF3EB21C65B"
+					item: { count: 1, id: "minecraft:iron_bars" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"606808123BD06F24"
+				"51F7202D0403E02B"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/space_t2"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6EAF26DD475637A7"
+			tasks: [{
+				id: "495FEE7E7AC6DD7C"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+}

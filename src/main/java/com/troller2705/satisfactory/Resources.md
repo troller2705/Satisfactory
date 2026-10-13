@@ -1,0 +1,13 @@
+- [x] Iron
+- [x] Copper
+- [x] Coal
+- [x] Sulfur
+- [x] Caterium
+- [x] SAM
+- [x] Quartz
+- [x] Uranium
+- [x] Bauxite
+- [ ] Limestone
+- [ ] Crude Oil
+- [ ] Water
+- [ ] Nitrogen Gas

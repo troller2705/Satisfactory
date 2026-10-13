@@ -1,0 +1,148 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quartz"
+	group: "2C5C625B3BA006C2"
+	id: "15CE49D008F3FC7D"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/quartz"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "40FCEED6EBDAFC56"
+			tasks: [{
+				id: "6B6A8EC464F3375F"
+				item: { components: { "ftbquests:missing_item": "northstar:raw_glowstone_ore" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["40FCEED6EBDAFC56"]
+			id: "66D2F7F2FA4D1164"
+			tasks: [{
+				id: "7B8793F16DCE8CE5"
+				item: { components: { "ftbquests:missing_item": "northstar:raw_glowstone_ore" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["40FCEED6EBDAFC56"]
+			id: "5450606C3CD5AF41"
+			tasks: [{
+				id: "6F65CC66C72DAD76"
+				item: { components: { "ftbquests:missing_item": "northstar:raw_glowstone_ore" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5450606C3CD5AF41"]
+			hide_until_deps_visible: true
+			id: "13596488A3ED34EE"
+			tasks: [{
+				id: "53C7456201D7E3C6"
+				item: { components: { "ftbquests:missing_item": "northstar:raw_glowstone_ore" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dep_control_pts: {
+				5450606C3CD5AF41: [
+					5.0d
+					-3.0d
+					7.242857142857147d
+					-2.385714285714286d
+				]
+			}
+			dependencies: ["5450606C3CD5AF41"]
+			id: "6BBF1CD8D878D359"
+			tasks: [{
+				id: "68C742B66B5C51AC"
+				item: { components: { "ftbquests:missing_item": "northstar:raw_glowstone_ore" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66D2F7F2FA4D1164"]
+			id: "329EB03C2C5185C1"
+			tasks: [{
+				id: "77FB3CEF0DAF0FAB"
+				item: { components: { "ftbquests:missing_item": "northstar:raw_glowstone_ore" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66D2F7F2FA4D1164"]
+			id: "3C16FCE46B9E1CC9"
+			tasks: [{
+				id: "7EBD8AB932F07412"
+				item: { components: { "ftbquests:missing_item": "northstar:raw_glowstone_ore" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C16FCE46B9E1CC9"]
+			id: "56CF456830444F5C"
+			tasks: [{
+				id: "71EAE2FC19C6A555"
+				item: { components: { "ftbquests:missing_item": "northstar:raw_glowstone_ore" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C16FCE46B9E1CC9"]
+			id: "2B527D9EF70685F7"
+			tasks: [{
+				id: "6EBC619024ADB6CB"
+				item: { components: { "ftbquests:missing_item": "northstar:raw_glowstone_ore" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C16FCE46B9E1CC9"]
+			id: "35796D3C5A2AA338"
+			tasks: [{
+				id: "05010F609377D26B"
+				item: { components: { "ftbquests:missing_item": "northstar:raw_glowstone_ore" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C16FCE46B9E1CC9"]
+			id: "7581C3B84572639B"
+			tasks: [{
+				id: "3F48D0C06C1BE923"
+				item: { components: { "ftbquests:missing_item": "northstar:raw_glowstone_ore" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+	]
+}

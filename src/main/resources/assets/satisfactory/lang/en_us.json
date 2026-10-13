@@ -8,15 +8,18 @@
   "item.satisfactory.raw_quartz": "Raw Quartz",
   "item.satisfactory.quartz_crystal": "Quartz Crystal",
   "item.satisfactory.raw_caterium": "Raw Caterium",
-  "item.satisfactory.caterium_ore": "Caterium Ore",
   "item.satisfactory.sulfur": "Sulfur",
-  "item.satisfactory.sulfur_ore": "Sulfur Ore",
-  "item.satisfactory.bauxite_ore": "Bauxite Ore",
   "item.satisfactory.raw_bauxite": "Raw Bauxite",
-  "item.satisfactory.uranium_ore": "Uranium Ore",
   "item.satisfactory.raw_uranium": "Raw Uranium",
-  "item.satisfactory.sam_ore": "SAM Ore",
+  "item.satisfactory.sam": "SAM",
   "item.satisfactory.compacted_coal": "Compacted Coal",
+
+  "block.satisfactory.caterium_ore": "Caterium Ore",
+  "block.satisfactory.sulfur_ore": "Sulfur Ore",
+  "block.satisfactory.bauxite_ore": "Bauxite Ore",
+  "block.satisfactory.quartz_ore": "Quartz Ore",
+  "block.satisfactory.uranium_ore": "Uranium Ore",
+  "block.satisfactory.sam_ore": "SAM Ore",
 
   "item.satisfactory.iron_ingot": "Iron Ingot",
   "item.satisfactory.copper_ingot": "Copper Ingot",
@@ -114,5 +117,8 @@
   "item.satisfactory.sulfuric_acid_bucket": "Sulfuric Acid Bucket",
   "item.satisfactory.nitrogen_gas_canister": "Nitrogen Gas Canister",
   "item.satisfactory.nitric_acid_bucket": "Nitric Acid Bucket",
-  "fluid.satisfactory.crude_oil": "Crude Oil"
+  "fluid.satisfactory.crude_oil": "Crude Oil",
+
+  "gui.satisfactory.hub_terminal": "Hub Terminal",
+  "block.satisfactory.hub_terminal": "Hub Terminal"
 }

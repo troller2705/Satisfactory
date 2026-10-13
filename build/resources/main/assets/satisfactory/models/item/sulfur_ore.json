@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "satisfactory:item/sulfur_ore"
-  }
+  "parent": "satisfactory:block/sulfur_ore"
 }

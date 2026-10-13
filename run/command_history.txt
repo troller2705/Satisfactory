@@ -14,3 +14,12 @@
 /fill -19 63 7 ~ ~ ~ air
 /fill -63 63 7 ~ ~ ~ air
 /kill @e[type=!minecraft:player]
+/give @p minecraft:command_block
+/effect give Dev minecraft:haste infinite 255
+/effect clear
+/nodes unlock sam
+/nodes unlock sam_ore
+/nodes unlock satisfactory:sam_ore
+/time set noon
+/gamerule doDaylightCycle false
+/gamerule doWeatherCycle false

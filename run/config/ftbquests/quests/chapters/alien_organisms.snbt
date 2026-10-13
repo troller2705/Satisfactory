@@ -1,0 +1,155 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alien_organisms"
+	group: "2C5C625B3BA006C2"
+	id: "0B2A4A6604E3980B"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7754B488844132DB"
+			tasks: [{
+				id: "111C0B5A339D718F"
+				item: { count: 1, id: "minecraft:porkchop" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "07FEAF7DFD2B0EA9"
+			tasks: [{
+				id: "4B43B76906F3794A"
+				item: { count: 1, id: "minecraft:beef" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "48AD12AAC8F996EE"
+			tasks: [{
+				id: "77420E509778BB31"
+				item: { count: 1, id: "minecraft:mutton" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "1E9E60927B23DBE6"
+			tasks: [{
+				id: "0FFE35421AFAF5DF"
+				item: { count: 1, id: "minecraft:chicken" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"07FEAF7DFD2B0EA9"
+				"1E9E60927B23DBE6"
+				"48AD12AAC8F996EE"
+				"7754B488844132DB"
+			]
+			dependency_requirement: "one_completed"
+			id: "12659E0653A929B6"
+			tasks: [{
+				id: "25EFD7F98195267F"
+				item: { count: 1, id: "minecraft:rabbit" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12659E0653A929B6"]
+			id: "565E1DC78D645121"
+			tasks: [{
+				id: "4C2B0AEB5C0FF094"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dep_control_pts: {
+				12659E0653A929B6: [
+					-3.0d
+					-1.0d
+					-5.749999999999993d
+					0.1428571428571388d
+				]
+			}
+			dependencies: ["12659E0653A929B6"]
+			id: "5F690FF6500908DE"
+			tasks: [{
+				count: 2L
+				id: "28CF0977014CA531"
+				item: { count: 1, id: "minecraft:rabbit" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12659E0653A929B6"]
+			id: "3E7D4129715E7088"
+			tasks: [{
+				count: 3L
+				id: "600B41B477E982EA"
+				item: { count: 1, id: "minecraft:rabbit" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dep_control_pts: {
+				12659E0653A929B6: [
+					-2.6785714285714235d
+					-0.8928571428571388d
+					0.2857142857142918d
+					-0.75d
+				]
+			}
+			dependencies: ["12659E0653A929B6"]
+			id: "10B6B546D90C7DD4"
+			tasks: [{
+				count: 10L
+				id: "797456CC30B36FE4"
+				item: { components: { "ftbquests:missing_item": "tfmg:capacitor_item" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["565E1DC78D645121"]
+			id: "10D0F54A9EB26F6C"
+			tasks: [{
+				id: "4DF4A032E6178CBB"
+				item: { components: { "ftbquests:missing_item": "createaddition:iron_rod" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E7D4129715E7088"]
+			id: "58CD1FA123ECDE51"
+			tasks: [{
+				count: 5L
+				id: "0446FBAFCCF20F6C"
+				item: { components: { "ftbquests:missing_item": "tfmg:capacitor_item" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+	]
+}

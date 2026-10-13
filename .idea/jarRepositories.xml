@@ -91,5 +91,15 @@
       <option name="name" value="MavenRepo" />
       <option name="url" value="https://repo.maven.apache.org/maven2/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="Modrinth" />
+      <option name="name" value="Modrinth" />
+      <option name="url" value="https://api.modrinth.com/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven12" />
+      <option name="name" value="maven12" />
+      <option name="url" value="https://maven.architectury.dev" />
+    </remote-repository>
   </component>
 </project>

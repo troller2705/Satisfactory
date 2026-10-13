@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "satisfactory:item/uranium_ore"
-  }
+  "parent": "satisfactory:block/uranium_ore"
 }

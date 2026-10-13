@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "satisfactory:caterium_ore",
+    "satisfactory:sulfur_ore",
+    "satisfactory:bauxite_ore",
+    "satisfactory:quartz_ore",
+    "satisfactory:uranium_ore",
+    "satisfactory:sam_ore"
+  ]
+}

@@ -1,0 +1,305 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_2"
+	group: "0F82527ED703D46A"
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/num_2"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "1281DBFAEDD6D7EA"
+	images: [
+		{
+			click_action: "open_quest:25AF3DD041E3A972"
+			height: 1.0d
+			id: "23FA26CFE7E82A3E"
+			image: "kubejs:item/back_page"
+			rotation: 0.0d
+			width: 0.8330078125d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			click_action: "open_quest:447270CDFB9967E3"
+			dependency: "788A4770DA49D3FD"
+			height: 1.0d
+			id: "5FFCAEAD067E4708"
+			image: "kubejs:item/next_page"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_1"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5ABBA76B87FD80BA"
+			rewards: [
+				{
+					id: "3F901D5AD2361DC9"
+					type: "custom"
+				}
+				{
+					id: "61EB45B77EC13019"
+					type: "custom"
+				}
+				{
+					id: "3E2FB04C9A3A3A67"
+					type: "custom"
+				}
+				{
+					id: "246F4BC7DA2EBE6F"
+					type: "custom"
+				}
+			]
+			tasks: [
+				{
+					count: 200L
+					id: "25C7CD0336539BC4"
+					item: { count: 1, id: "satisfactory:cable" }
+					type: "item"
+				}
+				{
+					count: 200L
+					id: "71DB4D150CF40996"
+					item: { count: 1, id: "satisfactory:iron_rod" }
+					type: "item"
+				}
+				{
+					count: 500L
+					id: "4AF197CD91A88F64"
+					item: { count: 1, id: "satisfactory:screw" }
+					type: "item"
+				}
+				{
+					count: 300L
+					id: "5E16B8AEB6BCFC1F"
+					item: { count: 1, id: "satisfactory:iron_plate" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_2"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "061C6D437522E0FA"
+			rewards: [
+				{
+					id: "53DC15549EE66B3C"
+					type: "custom"
+				}
+				{
+					id: "612B8D556284D5D6"
+					type: "custom"
+				}
+				{
+					id: "463C82EB9E834B76"
+					type: "custom"
+				}
+				{
+					id: "7DA77B701A7C9F9B"
+					type: "custom"
+				}
+			]
+			tasks: [
+				{
+					count: 100L
+					id: "0BB4FACB9792A1B7"
+					item: { count: 1, id: "satisfactory:concrete" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "34D4A5D6963ECA1B"
+					item: { count: 1, id: "satisfactory:cable" }
+					type: "item"
+				}
+				{
+					count: 500L
+					id: "693A410836EBBEA6"
+					item: { count: 1, id: "satisfactory:screw" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_3"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3F3F507B0DC87866"
+			rewards: [
+				{
+					id: "36157DAFEBB78F6B"
+					type: "custom"
+				}
+				{
+					id: "1C7B7FFA6F83B25B"
+					type: "custom"
+				}
+				{
+					id: "7478C9C9DF190827"
+					type: "custom"
+				}
+				{
+					id: "266C5DD37EE134E7"
+					type: "custom"
+				}
+			]
+			tasks: [
+				{
+					count: 50L
+					id: "7A5705BA754EBF62"
+					item: { count: 1, id: "satisfactory:rotor" }
+					type: "item"
+				}
+				{
+					count: 300L
+					id: "3DA160BD7BE15075"
+					item: { count: 1, id: "satisfactory:iron_plate" }
+					type: "item"
+				}
+				{
+					count: 150L
+					id: "76F93830152844A7"
+					item: { count: 1, id: "satisfactory:cable" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_4"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0435AF89B44B02DE"
+			rewards: [
+				{
+					id: "310661F2A1F67FDB"
+					type: "custom"
+				}
+				{
+					id: "0D32A27F7FDA4818"
+					type: "custom"
+				}
+				{
+					id: "09759A87A031D629"
+					type: "custom"
+				}
+				{
+					id: "3DC73D730E74C9BB"
+					type: "custom"
+				}
+			]
+			tasks: [
+				{
+					count: 400L
+					id: "7741E84C271277DD"
+					item: { count: 1, id: "satisfactory:concrete" }
+					type: "item"
+				}
+				{
+					count: 500L
+					id: "38BA38EFF61C4C92"
+					item: { count: 1, id: "satisfactory:wire" }
+					type: "item"
+				}
+				{
+					count: 200L
+					id: "7D27BA8F39DD024A"
+					item: { count: 1, id: "satisfactory:iron_rod" }
+					type: "item"
+				}
+				{
+					count: 200L
+					id: "7B07D8C72AC5261F"
+					item: { count: 1, id: "satisfactory:iron_plate" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_5"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5AF449185CB3F9D7"
+			rewards: [
+				{
+					id: "72FDBDD9F409BEE8"
+					type: "custom"
+				}
+				{
+					id: "0CA0ED7AC2C01985"
+					type: "custom"
+				}
+				{
+					id: "6AAD3C6543A5BAEC"
+					type: "custom"
+				}
+				{
+					id: "0B4BEE09077A0570"
+					type: "custom"
+				}
+			]
+			tasks: [
+				{
+					count: 200L
+					id: "0FEB6245D1E77009"
+					item: { count: 1, id: "satisfactory:concrete" }
+					type: "item"
+				}
+				{
+					count: 300L
+					id: "45187F03A68088BC"
+					item: { count: 1, id: "satisfactory:iron_plate" }
+					type: "item"
+				}
+				{
+					count: 300L
+					id: "6CFF91B7525C77E1"
+					item: { count: 1, id: "satisfactory:iron_rod" }
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "4B0C4782DAA9A45E"
+					item: { count: 1, id: "satisfactory:reinforced_iron_plate" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+	]
+	require_sequential_tasks: true
+}

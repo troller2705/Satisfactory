@@ -1,0 +1,220 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space_elevator"
+	group: ""
+	icon: {
+		id: "minecraft:firework_rocket"
+	}
+	id: "031155EA9202CFC1"
+	images: [
+		{
+			height: 1.0d
+			id: "7F833079E926A0D5"
+			image: "northstar:textures/planet/solar_system/earth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			id: "7A05CB0FDE795CC9"
+			image: "northstar:textures/planet/solar_system/earth/moon.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			id: "7CE7332463E38BED"
+			image: "northstar:textures/planet/solar_system/mercury.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			id: "18E0E2643790534C"
+			image: "northstar:textures/planet/solar_system/venus.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			id: "10E3FED41C9E4581"
+			image: "northstar:textures/planet/solar_system/mars.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FF7D4E641E34008"]
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_1"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "606808123BD06F24"
+			tasks: [{
+				count: 50L
+				id: "505728003F7FD1EC"
+				item: { count: 1, id: "minecraft:heavy_weighted_pressure_plate" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["606808123BD06F24"]
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_2"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "51F7202D0403E02B"
+			tasks: [
+				{
+					count: 1000L
+					id: "4B138FEC54B1FC78"
+					item: { count: 1, id: "minecraft:heavy_weighted_pressure_plate" }
+					type: "item"
+				}
+				{
+					count: 1000L
+					id: "379EDA385432EC27"
+					item: { components: { "ftbquests:missing_item": "tfmg:steel_frame" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "4D026EEF1D18D9E7"
+					item: { components: { "ftbquests:missing_item": "create_new_age:copper_wire_block" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51F7202D0403E02B"]
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_3"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7AB7806EB2C55F0F"
+			tasks: [
+				{
+					count: 2500L
+					id: "0AD57893821C75F1"
+					item: { components: { "ftbquests:missing_item": "tfmg:steel_frame" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					count: 500L
+					id: "7D45BCBAA348DF13"
+					item: { components: { "ftbquests:missing_item": "createdieselgenerators:large_diesel_engine" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "68197D725FDC180E"
+					item: { components: { "ftbquests:missing_item": "create_connected:control_chip" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AB7806EB2C55F0F"]
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_4"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3750A56C2CAAEF11"
+			tasks: [
+				{
+					count: 500L
+					id: "0434B2FA192FDAFC"
+					item: { count: 1, id: "create:cart_assembler" }
+					type: "item"
+				}
+				{
+					count: 500L
+					id: "672C57FA8811A12F"
+					item: { components: { "ftbquests:missing_item": "tfmg:electromagnetic_coil" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "1C05BCFDC89C51F6"
+					item: { components: { "ftbquests:missing_item": "create_new_age:nuclear_fuel" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					count: 250L
+					id: "6F5FE9EA04F8CC87"
+					item: { components: { "minecraft:fireworks": { flight_duration: 3b } }, count: 1, id: "minecraft:firework_rocket" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3750A56C2CAAEF11"]
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/roman_5"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5485BAF0EE7537C8"
+			tasks: [
+				{
+					count: 500L
+					id: "7C0E940C8ED1E765"
+					item: { count: 1, id: "create:cart_assembler" }
+					type: "item"
+				}
+				{
+					count: 500L
+					id: "6BE2EDEE240823D9"
+					item: { components: { "ftbquests:missing_item": "tfmg:electromagnetic_coil" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "6934637092B41BC5"
+					item: { components: { "ftbquests:missing_item": "create_new_age:nuclear_fuel" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					count: 250L
+					id: "62D31DFCF12B546C"
+					item: { components: { "minecraft:fireworks": { flight_duration: 3b } }, count: 1, id: "minecraft:firework_rocket" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 2.0d
+		}
+	]
+}
